@@ -1,1 +1,78 @@
 /* CSS Christmas Wishlist */
+
+
+.main-nav{
+    margin-top: 5px;
+ }
+ .logo a,
+ .main-nav a {
+   font-family: "Stick", sans-serif;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+ }
+ *{
+    box-sizing: border-box;
+    /*box model fix*/
+    margin: 0;
+    border: 0;
+    padding: 0;
+ }
+ .main-nav a {
+    color: #e4a268;;
+    font-size: .99em;
+ }
+ 
+ .main-nav a:hover{
+    color: #FF9505;
+ }
+ 
+ .header{
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 1px solid #FF950588;
+    background-color:#ff950588;
+    box-shadow: 0px 0px 14px 0px rgb(0,0,0,0.75);
+    border-radius: 5px;
+ }
+
+
+
+
+
+
+/*--------Responsive Images-----------*/
+img{
+    width: 100%;
+ }
+
+
+
+ /*------Tablet Media Query--------------*/
+ @media screen and (min-width: 769px) {
+    .header,
+    .main-nav {
+        display: flex;
+    }
+ }
+ /*----End of Tablet Media Query--------*/
+ /*-------Desktop Media Query-----------*/
+@media screen and (min-width:1125px) {
+
+    .header {
+        flex-direction:row;
+        justify-content:space-between;
+    }
+}
+ /*-----End Desktop Media Query--------*/
+ /*-----Large Screen Media Query-------*/
+ @media screen and (min-width:1850px) {
+
+    .header {
+        flex-direction:row;
+        justify-content:space-between;
+
+    }
+}    
+/*----End Large Screen Media Query----*/
