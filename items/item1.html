@@ -17,16 +17,15 @@
         </ul>
     </nav>
     <br>
-    <button href="../index.html" class="button1" onclick="playAudio()"><a href=index.html>Main Menu</a></button>
-    <audio src="../mpds-confirm.ogg" id="audioPlayer"></audio>
+    <button href="item1.html"d="button1" onclick="audio.play();">Main Menu</button>
+    <audio src="../mpds-confirm.ogg" id="audioPlayer" type="audio/oog"></audio>
 
   </body>
-  <!-- Javascript -- found after the body tag (this links to the audio cues from the buttons)Found from a reply from a user on Reddit-->
-   <script>
-    let audioplayer = document.getElementByID('audioPlayer');
-    function play(){
-    audioplayer.load(); // reload the audio player so that the audio restarts from the beginning on each click\\
-    audioplayer.play();
-    }
-   </script>
+  <!-- Javascript 2 -- plays sound -- from YT -->
+   <script type="text/Javascript">
+   
+   const audio = new Audio();
+   audio.src = "../mpds-confirm.ogg";
+
+  </script>
 </html>
