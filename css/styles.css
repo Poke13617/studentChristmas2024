@@ -1,3 +1,23 @@
+#hero{
+   background-image:url(https://images.unsplash.com/photo-1483373018724-770a096812ff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNocmlzdG1hc3xlbnwwfHwwfHx8MA%3D%3D);
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+ }
+
+ .hero {
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   font-size:1.8rem;
+   text-align:center;
+ }
+
+
+
 /* CSS Christmas Wishlist */
 
 div {
@@ -57,35 +77,6 @@ img{
 
 
 
- /*------Tablet Media Query--------------*/
- @media screen and (min-width: 769px) {
-    .header,
-    .main-nav {
-        display: flex;
-    }
- }
-
-
- /*----End of Tablet Media Query--------*/
- /*-------Desktop Media Query-----------*/
-@media screen and (min-width:1125px) {
-
-   .header {
-       flex-direction:row;
-       justify-content:space-between;
-   }
-}
-/*-----End Desktop Media Query--------*/
- /*-----Large Screen Media Query-------*/
- @media screen and (min-width:1850px) {
-
-    .header {
-        flex-direction:row;
-        justify-content:space-between;
-
-    }
-}    
-/*----End Large Screen Media Query----*/
 button{
    padding:20px 20px 20px 20px
 }
@@ -111,3 +102,92 @@ height:350px; width:400px; padding:10px 10px;
  .wlbody{
    background-color:red
  }
+/*--Media Query(MOBILE)--*/
+@media screen and (min-width:1px ){
+   .wrapper {
+       display:grid;
+       grid-template-columns: repeat(1, minmax(230px, 1fr));
+       grid-gap:20px;
+       padding: 20px;
+   }
+}
+
+/*--Media Query (TABLET)---*/
+@media screen and (min-width:764px ) {
+   .wrapper {
+       display:grid;
+       grid-template-columns: repeat(2, minmax(230px, 1fr));
+       grid-gap:20px;
+       padding: 20px;
+   }
+}
+/* - - LAPTOP/DESKTOP Media Query----*/
+@media screen and (min-width:1024px){
+   .wrapper {
+       display:grid;
+       grid-template-columns: repeat(3, minmax(230px, 1fr));
+       grid-gap:20px;
+       padding: 20px;
+   }
+}
+
+
+
+/* End of body rules **********/
+.wrapper {
+   display:grid;
+   grid-template-columns: repeat(3, minmax(230px, 1fr));
+   grid-gap:20px;
+   padding: 20px;
+}
+
+/* Card rules *****************/
+article{
+   display:grid;
+   grid-template-rows: max-content 200px 1fr;
+   border: 1px solid #999;
+   border-radius:.5px;
+}
+.card header{
+   display:flexbox;
+   flex-direction:column;
+   justify-content: center;
+   align-content:center;
+   background-color:#5BBDFF;
+   border-radius: 15px 15px 0px 0px;
+   min-height:10em;
+   border: 1px white solid;
+   color: #fff
+}
+.card header h2{
+   text-align:center;
+   border: 1px white solid;
+
+}
+
+
+.card img{
+   object-fit:cover;
+   width:100%;
+   height:100%;
+}
+.content p{
+   padding:2% 2% 3% 3%
+}
+article footer{
+   background-color:#5BBDFF;
+   border-radius: 0px 0px 15px 15px;
+   color: #fff;
+   height:6em;
+}
+article footer button{
+   display:inline-block;
+   background-color:#5ABDFF
+}
+article footer h4{
+   display:inline-block;
+   color: #FFF;
+}
+article footer a{
+   color:0000FF
+}
