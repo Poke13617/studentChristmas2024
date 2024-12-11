@@ -7,7 +7,6 @@
    background-repeat:no-repeat;
    color: whitesmoke;
  }
-
  .hero {
    display:flex;
    align-items:center;
@@ -15,30 +14,108 @@
    font-size:1.8rem;
    text-align:center;
  }
-
-
-
+#hero2{
+   background-image:url(../74335664818__EE1DDE43-4BD7-4F42-B205-58CD73854A7E.jpg);
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:center;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero3{
+   background-image:url(../xmasbellawide.jpg);
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero4{
+   background-image:url(https://images.unsplash.com/photo-1626379945538-6c8824dd898f?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG9jdWx1cyUyMHF1ZXN0fGVufDB8fDB8fHww);
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero5{
+   background-image:url(https://images.unsplash.com/photo-1630526959194-5a2eb63b63aa?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjN8fHBzNXxlbnwwfHwwfHx8MA%3D%3D);
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:center;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero6{
+   background-image:url();
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero7{
+   background-image:url();
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero8{
+   background-image:url();
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero9{
+   background-image:url();
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
+#hero10{
+   background-image:url();
+   min-height:500px;
+   object-fit:cover;
+   background-size:cover;
+   background-position-y:bottom;
+   background-repeat:no-repeat;
+   color: whitesmoke;
+}
 /* CSS Christmas Wishlist */
-
 div {
    margin: 0px 5px 0px 5px
 }
-
-
 ul{
    list-style: none;
 }
-
 .main-nav{
     margin-top: 5px;
  }
  .logo a,
  .main-nav a {
-   font-family: "Stick", sans-serif;
+   font-family: "Bonbon", cursive;
+   font-weight: 400;
+   font-style: normal;
     padding: 10px 15px;
     text-transform: uppercase;
     text-align: center;
     display: block;
+    color: lime;
+    font-size: .99em;
  }
  *{
     box-sizing: border-box;
@@ -47,15 +124,9 @@ ul{
     border: 0;
     padding: 0;
  }
- .main-nav a {
-    color: lime;
-    font-size: .99em;
- }
- 
  .main-nav a:hover{
     color: lightcoral;
  }
- 
  .header{
     padding-top: .5em;
     padding-bottom: .5em;
@@ -64,19 +135,10 @@ ul{
     box-shadow: 0px 0px 14px 0px rgb(0,0,0,0.75);
     border-radius: 5px;
  }
-
-
-
-
-
-
 /*--------Responsive Images-----------*/
 img{
     width: 100%;
  }
-
-
-
 button{
    padding:20px 20px 20px 20px
 }
@@ -103,7 +165,7 @@ height:350px; width:400px; padding:10px 10px;
    background-color:red
  }
 /*--Media Query(MOBILE)--*/
-@media screen and (min-width:1px ){
+@media screen and (min-width:360px ){
    .wrapper {
        display:grid;
        grid-template-columns: repeat(1, minmax(230px, 1fr));
@@ -111,7 +173,6 @@ height:350px; width:400px; padding:10px 10px;
        padding: 20px;
    }
 }
-
 /*--Media Query (TABLET)---*/
 @media screen and (min-width:764px ) {
    .wrapper {
@@ -130,8 +191,12 @@ height:350px; width:400px; padding:10px 10px;
        padding: 20px;
    }
 }
-
-
+.int{
+   color:lightskyblue
+}
+.desc{
+   color:#5ABDFF
+}
 
 /* End of body rules **********/
 .wrapper {
@@ -140,7 +205,6 @@ height:350px; width:400px; padding:10px 10px;
    grid-gap:20px;
    padding: 20px;
 }
-
 /* Card rules *****************/
 article{
    display:grid;
@@ -164,8 +228,6 @@ article{
    border: 1px white solid;
 
 }
-
-
 .card img{
    object-fit:cover;
    width:100%;
