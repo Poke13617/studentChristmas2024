@@ -1,3 +1,7 @@
+
+#ps5img{
+height:350px
+}
 #hero{
    background-image:url(https://images.unsplash.com/photo-1483373018724-770a096812ff?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGNocmlzdG1hc3xlbnwwfHwwfHx8MA%3D%3D);
    min-height:500px;
@@ -136,15 +140,11 @@ ul{
     border-radius: 5px;
  }
 /*--------Responsive Images-----------*/
-img{
-    width: 100%;
- }
+
 button{
    padding:20px 20px 20px 20px
 }
-img{
-height:350px; width:400px; padding:10px 10px;
-}
+
 .lobster{
    font-family: "Lobster Two", sans-serif;
    font-weight: 400;
@@ -164,6 +164,16 @@ height:350px; width:400px; padding:10px 10px;
  .wlbody{
    background-color:red
  }
+
+
+.int{
+   color:lightskyblue
+}
+.desc{
+   color:#5ABDFF
+}
+
+
 /*--Media Query(MOBILE)--*/
 @media screen and (min-width:360px ){
    .wrapper {
@@ -191,20 +201,8 @@ height:350px; width:400px; padding:10px 10px;
        padding: 20px;
    }
 }
-.int{
-   color:lightskyblue
-}
-.desc{
-   color:#5ABDFF
-}
 
-/* End of body rules **********/
-.wrapper {
-   display:grid;
-   grid-template-columns: repeat(3, minmax(230px, 1fr));
-   grid-gap:20px;
-   padding: 20px;
-}
+
 /* Card rules *****************/
 article{
    display:grid;
@@ -244,12 +242,48 @@ article footer{
 }
 article footer button{
    display:inline-block;
-   background-color:#5ABDFF
+   background-color:#5ABDFF;
 }
 article footer h4{
    display:inline-block;
    color: #FFF;
 }
 article footer a{
-   color:0000FF
+   color:0000FF;
+}
+
+
+
+
+
+
+
+
+
+
+/*-------------Dropdown Menu Stuff-------------*/
+.logo{
+   text-align: center;
+}
+.drop1{
+   background-color:#5ABDFF;
+}
+.drop2{
+   background-color:cyan;
+}
+.drop1:hover{
+   color:purple;
+   background-color:goldenrod;
+}
+.drop2:hover{
+   color:plum;
+   background-color:gold;
+}
+.top{
+   background-color:aqua;
+   color:green;
+}
+.top:hover{
+   background-color:cyan;
+   color:green;
 }
