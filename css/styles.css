@@ -1,3 +1,9 @@
+.awhite{
+   color:white;
+}
+.awhite:hover{
+   color:gainsboro
+}
 .stuff{
    padding:20px
 }
